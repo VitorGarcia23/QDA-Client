@@ -1,0 +1,20 @@
+{
+	"serie": {
+		"url": "http://api.tvmaze.com/singlesearch/shows?q={{title}}"
+	},
+	"seasons": {
+		"url": "http://api.tvmaze.com/shows/{{serieId}}/seasons"
+	},
+	"episodeByNumber": {
+		"url": "http://api.tvmaze.com/shows/{{serieId}}/episodebynumber?season={{seasonNumber}}&number={{episodeNumber}}"
+	},
+	"crew": {
+		"url": "http://api.tvmaze.com/shows/{{serieId}}/crew"
+	},
+	"cast": {
+		"url": "http://api.tvmaze.com/shows/{{serieId}}/cast"
+	},
+	"episodeByDate": {
+		"url": "http://api.tvmaze.com/shows/{{serieId}}/episodesbydate?date={{searchDate}}"
+	}
+}
