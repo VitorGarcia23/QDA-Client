@@ -1,0 +1,7 @@
+{
+	"tvShows" :{
+		"serie": {
+			"url": "http://api.tvmaze.com/singlesearch/shows?q={{title}}"
+		}
+	}
+}
